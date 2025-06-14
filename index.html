@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natchathra N - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #f7f9fc;
+      color: #2e2e2e;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #2c3e50;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+    nav .logo {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      color: #3498db;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(to right, #2c3e50, #34495e);
+      text-align: center;
+      color: #ffffff;
+      padding: 0 20px;
+      padding-top: 60px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header h2 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      background: #3498db;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background-color: #2980b9;
+    }
+    section {
+      padding: 80px 20px 60px;
+      background: #ffffff;
+      color: #2e2e2e;
+    }
+    section h2 {
+      color: #3498db;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .content {
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #3498db;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "\272A ";
+      color: #3498db;
+      font-weight: bold;
+    }
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 10px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #3498db;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .resume-btn {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .resume-btn a {
+      background: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .resume-btn a:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Natchathra</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>I'm Natchathra N</h1>
+    <h2>Computer Science Engineering Student</h2>
+    <p>Motivated learner with skills in Cloud, Web Development & Data Analysis</p>
+    <a href="#about" class="btn">Portfolio</a>
+  </header>
+
+  <section id="about">
+    <img src="C:\Users\NATCHATHRA NAGARAJ\OneDrive\Pictures\Natchathra.jpeg" alt="Profile Picture" class="profile-img">
+    <h2>About Me</h2>
+    <div class="content">
+      <p>I am a highly motivated and detail-oriented Computer Science Engineering student with a strong foundation in Java, Python, C, and MySQL. Skilled in cloud computing platforms like AWS and Google Cloud, I have successfully developed web-based projects and data analysis dashboards. I excel in teamwork, problem-solving, and effective communication, and I am passionate about software development and cloud technologies.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="content">
+      <p><strong>DR.MCET</strong> (2023 - 2027)<br />Bachelor of Computer Science and Engineering<br />GPA: 9.25 / 10.0</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="content">
+      <ul>
+        <li> Project Management</li>
+        <li> Public Relations</li>
+        <li> Teamwork</li>
+        <li> Time Management</li>
+        <li> Leadership</li>
+        <li> Effective Communication</li>
+        <li> Critical Thinking</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="content">
+      <ul>
+        <li> Developed websites using HTML and CSS</li>
+        <li> Created a dashboard using Excel based on road accident data</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="content resume-btn">
+      <a href="C:\Users\NATCHATHRA NAGARAJ\Downloads\NatchathraNagaraj_resume.png" target="_blank">Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications & Achievements</h2>
+    <div class="content">
+      <ul>
+        <li> Programming in C - IIT MADRAS (ELITE Certification)</li>
+        <li> LINGUASKILL Exam - B2 grade (Cambridge University)</li>
+        <li> Fundamentals of Web Development (HTML & CSS)</li>
+        <li> Google Gained Certifications - Linux and SQL</li>
+        <li> HackerRank Badges</li>
+        <li> Microsoft Fundamentals of Cloud Computing</li>
+        <li> 3rd Prize - Paper Presentation (Data Mining)</li>
+        <li> Solved 100+ LeetCode Problems</li>
+        <li> AWS Cloud Practitioner Essentials</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <div class="content">
+      <ul>
+        <li> English: Professional</li>
+        <li> Tamil: Native</li>
+        <li> Hindi: Basics</li>
+        <li> Telugu: Intermediate</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Activities</h2>
+    <div class="content">
+      <ul>
+        <li> Coordinated team events</li>
+        <li> Member of Science Maths Technology Club (2023-24)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="content">
+      <p><strong>Phone:</strong> 9150512712<br />
+         <strong>Email:</strong> natchathranagaraj@gmail.com<br />
+         <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/natchathra-nagaraj-b9b9042a2/">Natchathra Nagaraj</a></p>
+    </div>
+  </section>
+</body>
+</html>
