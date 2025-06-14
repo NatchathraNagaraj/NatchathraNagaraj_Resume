@@ -56,23 +56,25 @@
       margin: 4px 0;
     }
     @media (max-width: 768px) {
-      nav .menu {
-        display: none;
-        flex-direction: column;
-        background-color: #2c3e50;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        padding: 1rem 0;
-      }
-      nav .menu.active {
-        display: flex;
-      }
-      .hamburger {
-        display: flex;
-      }
-    }
+  nav .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #2c3e50;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 180px; /* Make it narrower */
+    padding: 1rem;
+    border-radius: 8px; /* Optional for smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  nav .menu.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
     header {
       display: flex;
       flex-direction: column;
